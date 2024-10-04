@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 192.168.0.166:8848
+      username: nacos
+      password: nacos
+      config:
+        namespace: a6d0a7ad-e561-4860-babc-8a838ebf42fa
+        group: LEARN_GROUP
+        file-extension: yaml
+
+  application:
+    name: learn-nacos-config
+  profiles:
+    active: dev
+  config:
+    import:
+      - nacos:${spring.application.name}${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}?refreshEnabled=true
