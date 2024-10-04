@@ -1,0 +1,15 @@
+server:
+  port: 40000
+
+spring:
+  application:
+    name: learn-gateway-provider
+
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.0.166:8848
+        namespace: a6d0a7ad-e561-4860-babc-8a838ebf42fa
+        group: LEARN_GROUP
