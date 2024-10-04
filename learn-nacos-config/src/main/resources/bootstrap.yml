@@ -4,6 +4,9 @@ spring:
       server-addr: 192.168.0.166:8848
       username: nacos
       password: nacos
+      discovery:
+        group: LEARN_GROUP
+        namespace: a6d0a7ad-e561-4860-babc-8a838ebf42fa
       config:
         namespace: a6d0a7ad-e561-4860-babc-8a838ebf42fa
         group: LEARN_GROUP
