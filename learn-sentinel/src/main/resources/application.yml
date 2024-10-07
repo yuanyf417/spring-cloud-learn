@@ -1,0 +1,26 @@
+server:
+  port: 30020
+
+spring:
+  cloud:
+    sentinel:
+      filter:
+        enabled: true
+      eager: true
+      transport:
+        dashboard: localhost:8080
+      web-context-unify: false
+      scg:
+        fallback:
+          mode: response
+          response-body: 1234
+          response-status: 444
+        order: -100
+  application:
+    name: learn-sentinel
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
