@@ -24,6 +24,7 @@
         <module>learn-nacos-discovery</module>
         <module>learn-gateway</module>
         <module>learn-gateway-provider</module>
+        <module>learn-sentinel</module>
     </modules>
 
     <dependencyManagement>
