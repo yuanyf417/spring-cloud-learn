@@ -25,6 +25,7 @@
         <module>learn-gateway</module>
         <module>learn-gateway-provider</module>
         <module>learn-sentinel</module>
+        <module>learn-job</module>
     </modules>
 
     <dependencyManagement>
