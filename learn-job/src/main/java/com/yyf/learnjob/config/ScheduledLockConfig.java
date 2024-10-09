@@ -21,13 +21,13 @@ import java.util.TimeZone;
 public class ScheduledLockConfig {
 
     @Autowired
-    private HikariDataSource dataSource;
+    private DataSource dataSource;
 
     @Bean
     public LockProvider lockProvider() {
         return new JdbcTemplateLockProvider(JdbcTemplateLockProvider.Configuration.builder()
                 .withJdbcTemplate(new JdbcTemplate(dataSource))
-                .withTimeZone(TimeZone.getTimeZone("UTC"))
+                .withTimeZone(TimeZone.getTimeZone("GMT-8:00"))
                 .build());
     }
 }
