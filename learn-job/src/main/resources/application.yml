@@ -1,3 +1,4 @@
+
 spring:
   application:
     name: learn-job
@@ -8,3 +9,14 @@ spring:
     password: YYfei1108..
     hikari:
       maximum-pool-size: 10
+learn:
+  job:
+    admin-addresses: http://127.0.0.1:10030/xxl-job-admin
+    access-token: default_token
+    app-name: learn-job
+    ip:
+    port: 40050
+    log-path: /Users/yanfei/logs/learn-job/jobhandler
+    log-retention-days: 30
+server:
+  port: 40050
