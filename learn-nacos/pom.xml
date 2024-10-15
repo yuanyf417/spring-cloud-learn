@@ -7,18 +7,18 @@
         <artifactId>spring-cloud-learn</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>learn-gateway</artifactId>
+    <artifactId>learn-nacos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>learn-gateway</name>
-    <description>learn-gateway相关示例</description>
+    <name>learn-nacos</name>
+    <description>nacos相关示例</description>
     <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
 
     <modules>
-        <module>learn-gateway-consumer</module>
-        <module>learn-gateway-provider</module>
+        <module>learn-nacos-config</module>
+        <module>learn-nacos-discovery</module>
     </modules>
 
 </project>

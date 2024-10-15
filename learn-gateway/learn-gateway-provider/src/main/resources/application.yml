@@ -1,3 +1,4 @@
+# gateway
 server:
   port: 40000
 
