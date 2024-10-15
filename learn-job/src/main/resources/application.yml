@@ -15,8 +15,8 @@ learn:
     access-token: default_token
     app-name: learn-job
     ip:
-    port: 40050
+    port: 40000
     log-path: /Users/yanfei/logs/learn-job/jobhandler
     log-retention-days: 30
 server:
-  port: 40050
+  port: 40000

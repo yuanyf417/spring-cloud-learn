@@ -1,6 +1,6 @@
 # gateway
 server:
-  port: 40000
+  port: 10100
 
 spring:
   application:

@@ -13,4 +13,4 @@ spring:
         group: LEARN_GROUP
 
 server:
-  port: 10000
+  port: 20100
