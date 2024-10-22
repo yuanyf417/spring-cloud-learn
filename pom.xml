@@ -23,7 +23,9 @@
     <modules>
         <module>learn-nacos</module>
         <module>learn-gateway</module>
+        <module>learn-seata</module>
         <module>learn-sentinel</module>
+        <module>learn-stream</module>
         <module>learn-job</module>
     </modules>
 

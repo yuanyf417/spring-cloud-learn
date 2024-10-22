@@ -4,7 +4,7 @@ spring:
     name: learn-job
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.0.166:3306/spring_cloud_alibaba_learn?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.0.166:3306/learn_job?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: YYfei1108..
     hikari:

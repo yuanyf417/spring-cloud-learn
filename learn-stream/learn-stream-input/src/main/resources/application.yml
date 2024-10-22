@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    stream:
+      binders:
+        notifyDemo-out-0:
+          destination: notify.demo.finished

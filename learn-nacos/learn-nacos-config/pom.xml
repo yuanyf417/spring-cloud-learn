@@ -4,10 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.yyf</groupId>
-        <artifactId>spring-cloud-learn</artifactId>
+        <artifactId>learn-nacos</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>learn-nacos-config</artifactId>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>learn-nacos-config</name>
     <description>learn-nacos-config</description>

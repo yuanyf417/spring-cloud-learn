@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      binders:
+        notifyDemo-in-0:
+          destination: notify.demo.paid
+          group: producer
+        notifyDemo-out-0:
+          destination: notify.demo.finished
